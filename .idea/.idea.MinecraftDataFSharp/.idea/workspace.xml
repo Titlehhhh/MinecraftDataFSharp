@@ -9,14 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MinecraftDataFSharp/QwenService.fs" afterDir="false" />
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ChatSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ChatSender_Impl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ClientPacket.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/IMinecraftPrimitiveWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/MemoryOwner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/MinecraftPrimitiveWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/NbtTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinecraftDataFSharp/LLMService.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinecraftDataFSharp/PromtCreator.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/BasePromt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/BasePromt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataParser.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataParser.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/ProtocolTypeMapper.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/ProtocolTypeMapper.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/QwenService.fs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +56,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1e602dabe2224a309e9fbeca5b2954052a938/00/a9adc423/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53e7558126a3afd3dff9121221a6971390edd0abd3844c6d7b5eddbc0a37ab7/ExceptionHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7dc13b2bfc9df882592be012c0e539ac439fcdaadc8950a374d576cc7d1f/option.fs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81f9431536218e15f0591ba3bfc914bb82698cdc140719ee8a69f3c948a63b1/SseParser_1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7e99f3da3fc9d80c1949ce87d548d992a745092d1c720f44952dbbd144437f/JsonConverterOfT.ReadCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b96498ad6f73fd1f9b63c2ffe1a5d28137e67f2e40e44255a7afea72de8/TaskSeq.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db25f19c6176188233ade26dfdeb995f7df25d1b2d96c6371f18f3353877/JsonDocument.Parse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e378dc9494d8d3cc736fe42826eec1d26ffd82334fa22067aea01f88428ed2e1/async.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e75a5575ba872c8ea754c015cb363850e6c661f39569712d5b74aaca67263c/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,12 +84,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "discord-application",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -145,7 +161,9 @@
       <workItem from="1729793547982" duration="127000" />
       <workItem from="1733673698018" duration="11399000" />
       <workItem from="1733742203925" duration="646000" />
-      <workItem from="1733760046468" duration="9273000" />
+      <workItem from="1733760046468" duration="10025000" />
+      <workItem from="1733816609313" duration="477000" />
+      <workItem from="1733817281469" duration="13583000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -155,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733684666774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1733769611403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733769611403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

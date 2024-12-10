@@ -9,26 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ChatSender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ChatSender_Impl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/ClientPacket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/IMinecraftPrimitiveWriter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/MemoryOwner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/MinecraftPrimitiveWriter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/NbtTag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinecraftDataFSharp/LLMService.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinecraftDataFSharp/PromtCreator.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/BasePromt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/BasePromt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/ProtocolTypeMapper.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/ProtocolTypeMapper.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/QwenService.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ChatSender_Impl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ChatSender_Impl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/MinecraftPrimitiveWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/MinecraftPrimitiveWriter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +147,7 @@
       <workItem from="1733742203925" duration="646000" />
       <workItem from="1733760046468" duration="10025000" />
       <workItem from="1733816609313" duration="477000" />
-      <workItem from="1733817281469" duration="13583000" />
+      <workItem from="1733817281469" duration="16392000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -181,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733769611403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1733843990504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733843990504</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

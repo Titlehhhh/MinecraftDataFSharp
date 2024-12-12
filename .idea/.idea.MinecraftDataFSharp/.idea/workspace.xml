@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="add protodef">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/IPacketSender.cs" afterDir="false" />
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protodef/Enumerable/ProtodefContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Protodef/Enumerable/ProtodefContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/JsonPacketGenerator.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/JsonPacketGenerator.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Models.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Models.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/PromtCreator.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/PromtCreator.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protodef/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Protodef/Extensions.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1e602dabe2224a309e9fbeca5b2954052a938/00/a9adc423/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2854ce6d56c18d0d837d3a3ef9c4f2c7c77691fa3528c8394986ac7ce7719/StackFrameIterator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53e7558126a3afd3dff9121221a6971390edd0abd3844c6d7b5eddbc0a37ab7/ExceptionHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/625ed9b557f1533cc7c4f974558836da4719c482e3070253ec856fcb6f234f9/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7dc13b2bfc9df882592be012c0e539ac439fcdaadc8950a374d576cc7d1f/option.fs" root0="SKIP_HIGHLIGHTING" />
@@ -51,6 +54,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7e99f3da3fc9d80c1949ce87d548d992a745092d1c720f44952dbbd144437f/JsonConverterOfT.ReadCore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b96498ad6f73fd1f9b63c2ffe1a5d28137e67f2e40e44255a7afea72de8/TaskSeq.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db25f19c6176188233ade26dfdeb995f7df25d1b2d96c6371f18f3353877/JsonDocument.Parse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc5e67abbc66fab2c4bbfd57917a41fa80f866cbf3b811e6d1701780b76/seq.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e378dc9494d8d3cc736fe42826eec1d26ffd82334fa22067aea01f88428ed2e1/async.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e75a5575ba872c8ea754c015cb363850e6c661f39569712d5b74aaca67263c/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp2/Program.fs" root0="FORCE_HIGHLIGHTING" />
@@ -70,7 +74,7 @@
   "keyToString": {
     ".NET Project.ConsoleApp1.executor": "Debug",
     ".NET Project.ConsoleApp2.executor": "Run",
-    ".NET Project.MinecraftDataFSharp.executor": "Debug",
+    ".NET Project.MinecraftDataFSharp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
@@ -85,7 +89,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.ConsoleApp1">
+  <component name="RunManager" selected=".NET Project.MinecraftDataFSharp">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -157,7 +161,8 @@
       <workItem from="1733817281469" duration="16392000" />
       <workItem from="1733846834908" duration="55000" />
       <workItem from="1733852196997" duration="6419000" />
-      <workItem from="1733895118253" duration="2405000" />
+      <workItem from="1733895118253" duration="2998000" />
+      <workItem from="1734015723797" duration="2904000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -207,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733896467457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1733897770756</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733897770756</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,9 +230,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="1" />
     <MESSAGE value="add protodef" />
-    <option name="LAST_COMMIT_MESSAGE" value="add protodef" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,32 +260,6 @@
           <line>23</line>
           <properties documentPath="C:\Users\Title\RiderProjects\MinecraftDataFSharp\SimpleGradioClient\Client.cs" containingFunctionPresentation="Method 'LoadConfigAsync'" />
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp1/Program.cs</url>
-          <line>24</line>
-          <properties documentPath="C:\Users\Title\RiderProjects\MinecraftDataFSharp\ConsoleApp1\Program.cs" containingFunctionPresentation="Method 'Main'">
-            <startOffsets>
-              <option value="696" />
-            </startOffsets>
-            <endOffsets>
-              <option value="716" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Protodef/Converters/DataTypeConverter.cs</url>
-          <line>10</line>
-          <properties documentPath="C:\Users\Title\RiderProjects\MinecraftDataFSharp\Protodef\Converters\DataTypeConverter.cs" containingFunctionPresentation="Method 'Read'">
-            <startOffsets>
-              <option value="339" />
-            </startOffsets>
-            <endOffsets>
-              <option value="340" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

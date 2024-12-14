@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="" />
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +41,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2854ce6d56c18d0d837d3a3ef9c4f2c7c77691fa3528c8394986ac7ce7719/StackFrameIterator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53e7558126a3afd3dff9121221a6971390edd0abd3844c6d7b5eddbc0a37ab7/ExceptionHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/625ed9b557f1533cc7c4f974558836da4719c482e3070253ec856fcb6f234f9/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/726b49171fefd334aaeec815f424b6037fda7f/Syntax.xml.Syntax.Generated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7dc13b2bfc9df882592be012c0e539ac439fcdaadc8950a374d576cc7d1f/option.fs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7e9f4b29222e2d9f97ee02774e8c385e49ade1b5b467cb8545696c05d90/JsonConverterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81f9431536218e15f0591ba3bfc914bb82698cdc140719ee8a69f3c948a63b1/SseParser_1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9bef9132d3d39fd6b2927032bf5612e54ef6aebe0abba6e25fb30fc7873950/SyntaxToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7e99f3da3fc9d80c1949ce87d548d992a745092d1c720f44952dbbd144437f/JsonConverterOfT.ReadCore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b96498ad6f73fd1f9b63c2ffe1a5d28137e67f2e40e44255a7afea72de8/TaskSeq.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db25f19c6176188233ade26dfdeb995f7df25d1b2d96c6371f18f3353877/JsonDocument.Parse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,6 +53,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e378dc9494d8d3cc736fe42826eec1d26ffd82334fa22067aea01f88428ed2e1/async.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e75a5575ba872c8ea754c015cb363850e6c661f39569712d5b74aaca67263c/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp2/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Title/RiderProjects/MinecraftDataFSharp/MinecraftDataFSharp/CodeGenerator.fs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MinecraftDataFSharp/JsonPacketGenerator.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -62,7 +69,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Project.ConsoleApp1.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.ConsoleApp1.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.ConsoleApp2.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.MinecraftDataFSharp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -79,7 +86,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.MinecraftDataFSharp">
+  <component name="RunManager" selected=".NET Project.ConsoleApp1">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -154,6 +161,8 @@
       <workItem from="1733895118253" duration="2998000" />
       <workItem from="1734015723797" duration="2904000" />
       <workItem from="1734021253669" duration="1225000" />
+      <workItem from="1734104836933" duration="9477000" />
+      <workItem from="1734183228797" duration="4261000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -219,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734025455276</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add method generations">
+      <option name="closed" value="true" />
+      <created>1734112388311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734112388311</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pre generation">
+      <option name="closed" value="true" />
+      <created>1734114279829</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734114279829</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +256,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add protodef" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="add method generations" />
+    <MESSAGE value="pre generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre generation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

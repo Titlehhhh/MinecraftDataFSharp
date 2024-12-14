@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protodef/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Protodef/Extensions.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +160,7 @@
       <workItem from="1734021253669" duration="1225000" />
       <workItem from="1734104836933" duration="9477000" />
       <workItem from="1734183228797" duration="8648000" />
-      <workItem from="1734193080264" duration="1022000" />
+      <workItem from="1734193080264" duration="1281000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -263,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734191397576</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix filter">
+      <option name="closed" value="true" />
+      <created>1734194282904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734194282904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +281,8 @@
     <MESSAGE value="pre generation" />
     <MESSAGE value="1" />
     <MESSAGE value="success code gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="success code gen" />
+    <MESSAGE value="fix filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

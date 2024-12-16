@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="" />
+    <list default="true" id="6500bbe6-1855-4103-b3c1-13d6bcfa25cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinecraftDataFSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGenerator.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/CodeGeneratorWrite.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/MinecraftDataFSharp.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Models.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Models.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/MinecraftDataFSharp/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxLib/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxLib/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxLib/MinecraftProtocol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxLib/MinecraftProtocol.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +55,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9bef9132d3d39fd6b2927032bf5612e54ef6aebe0abba6e25fb30fc7873950/SyntaxToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7e99f3da3fc9d80c1949ce87d548d992a745092d1c720f44952dbbd144437f/JsonConverterOfT.ReadCore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b96498ad6f73fd1f9b63c2ffe1a5d28137e67f2e40e44255a7afea72de8/TaskSeq.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cf369b0a13796c76406c4ddbb91987f04ab0ea4437f6f0ad1757666c92684/Observable.StandardSequenceOperators.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db25f19c6176188233ade26dfdeb995f7df25d1b2d96c6371f18f3353877/JsonDocument.Parse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc5e67abbc66fab2c4bbfd57917a41fa80f866cbf3b811e6d1701780b76/seq.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e378dc9494d8d3cc736fe42826eec1d26ffd82334fa22067aea01f88428ed2e1/async.fs" root0="FORCE_HIGHLIGHTING" />
@@ -60,29 +70,32 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2pwOUgeKKvnYG7vlGWbQxyLQYIo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.ConsoleApp1.executor": "Run",
-    ".NET Project.ConsoleApp2.executor": "Run",
-    ".NET Project.MinecraftDataFSharp.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "discord-application",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.ConsoleApp1.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.ConsoleApp2.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.MinecraftDataFSharp.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.MinecraftDataFSharp">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -161,6 +174,11 @@
       <workItem from="1734104836933" duration="9477000" />
       <workItem from="1734183228797" duration="8648000" />
       <workItem from="1734193080264" duration="1281000" />
+      <workItem from="1734198715075" duration="5230000" />
+      <workItem from="1734256136215" duration="682000" />
+      <workItem from="1734266857572" duration="7626000" />
+      <workItem from="1734326761200" duration="75000" />
+      <workItem from="1734350779612" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -266,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734194282904</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1734204061043</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734204061043</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +308,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="success code gen" />
     <MESSAGE value="fix filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix filter" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,6 +337,19 @@
           <line>23</line>
           <properties documentPath="C:\Users\Title\RiderProjects\MinecraftDataFSharp\SimpleGradioClient\Client.cs" containingFunctionPresentation="Method 'LoadConfigAsync'" />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleApp1/Program.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\Users\Title\RiderProjects\MinecraftDataFSharp\ConsoleApp1\Program.cs" containingFunctionPresentation="Method 'RunBot'">
+            <startOffsets>
+              <option value="413" />
+            </startOffsets>
+            <endOffsets>
+              <option value="414" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7462,7 +7462,8 @@
                     "0x75": "entity_update_attributes",
                     "0x76": "entity_effect",
                     "0x77": "declare_recipes",
-                    "0x78": "tags"
+                    "0x78": "tags",
+                    "0x79": "set_projectile_power"
                   }
                 }
               ]
@@ -7594,7 +7595,8 @@
                     "entity_update_attributes": "packet_entity_update_attributes",
                     "entity_effect": "packet_entity_effect",
                     "declare_recipes": "packet_declare_recipes",
-                    "tags": "packet_tags"
+                    "tags": "packet_tags",
+                    "set_projectile_power": "packet_set_projectile_power"
                   }
                 }
               ]
